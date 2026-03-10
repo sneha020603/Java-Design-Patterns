@@ -16,6 +16,8 @@ class Singleton{
     }
 }
 
+//Singleton Design Pattern is a creational design pattern that restricts the instantiation of a class to a single
+
 public class SingletonDesignPattern {
     public static void main(String[] args) {
         Singleton obj1 = Singleton.getIntance();

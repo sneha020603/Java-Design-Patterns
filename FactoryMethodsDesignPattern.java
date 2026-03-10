@@ -84,6 +84,8 @@ class BurgerSingh extends BurgerFactory{
     }
 }
 
+//factory method deal with only one product family, if we want to create multiple product family then we can use abstract factory design pattern
+
 public class FactoryMethodsDesignPattern {
 
       public static void main(String[] args) {

@@ -43,6 +43,8 @@ class BurgerFactory{
     }
 }
 
+//Simple Factory Design Pattern is a creational design pattern that provides an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created. In this example, we have a BurgerFactory class that creates different types of burgers (Basic, Standerd, Premium) based on the input string. The client code can simply call the createBurger method with the desired type of burger, and the factory will handle the instantiation and preparation of the burger.
+
     public class SimpleFactoryDesignPattern {
     public static void main(String[] args) {
         Burger orderBurger1 = BurgerFactory.createBurger("premium");
